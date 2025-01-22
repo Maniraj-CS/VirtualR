@@ -1,0 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: font1;
+  src: url(./assets/pxiEyp8kv8JHgFVrJJfecg.ttf);
+}
+@font-face {
+  font-family: font2;
+  src: url(./assets/pxiGyp8kv8JHgFVrJJLucHtA.ttf);
+}
+
+html , body{
+  background: #121212;
+  color: white;
+}
+
+
