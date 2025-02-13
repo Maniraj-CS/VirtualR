@@ -23,4 +23,18 @@ html , body{
   color: white;
 }
 
+body{
+  overflow-x: hidden;
+  overflow-y: auto;   /* Allow vertical scrolling */
+}
+
+body::-webkit-scrollbar{
+  height: 0px;
+  width:0px ;
+}
+
+.hidden-section {
+  display: none; /* Hide content initially */
+}
+
 
